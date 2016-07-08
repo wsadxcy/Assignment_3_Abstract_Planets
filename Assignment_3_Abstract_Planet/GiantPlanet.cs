@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_3_Abstract_Planet
 {
-    class GiantPlanet : Planet
+    class GiantPlanet : Planet , IHasMoons , IHasRings
     {
         private string _type;
 

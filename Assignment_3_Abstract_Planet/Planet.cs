@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_3_Abstract_Planet
 {
-    class Planet
+    abstract class Planet
     {
         private double _diameter;
         private double _mass;

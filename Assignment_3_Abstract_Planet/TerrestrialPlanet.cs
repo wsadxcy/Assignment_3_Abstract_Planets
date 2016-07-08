@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Assignment_3_Abstract_Planet
 {
-    class TerrestrialPlanet : Planet
+    class TerrestrialPlanet : Planet ,IHabitable,IHasMoons
     {
         private bool _oxygen;
 
@@ -20,7 +21,7 @@ namespace Assignment_3_Abstract_Planet
             throw new System.NotImplementedException();
         }
 
-        public bool HasRings()
+        public bool Habitable()
         {
             throw new System.NotImplementedException();
         }
