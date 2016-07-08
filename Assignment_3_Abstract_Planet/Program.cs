@@ -16,11 +16,12 @@ namespace Assignment_3_Abstract_Planet
     {
         static void Main(string[] args)
         {
+            
         }
 
         public void WaitForAnyKey()
         {
-            throw new System.NotImplementedException();
+            Console.ReadKey();
         }
     }
 }
