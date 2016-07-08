@@ -7,8 +7,8 @@ using System.Threading.Tasks;
  * Date : Jul 7th, 2016
  * Date Modified: Jul 7th, 2016
  * Description : Assignment 3
- * Version : 0.1 - 
- *                  Added some field and porperty
+ * Version : 0.2 - 
+ *                  Created the structure for every class
  */
 namespace Assignment_3_Abstract_Planet
 {
@@ -16,6 +16,11 @@ namespace Assignment_3_Abstract_Planet
     {
         static void Main(string[] args)
         {
+        }
+
+        public void WaitForAnyKey()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

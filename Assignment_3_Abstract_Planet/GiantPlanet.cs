@@ -8,5 +8,21 @@ namespace Assignment_3_Abstract_Planet
 {
     class GiantPlanet : Planet
     {
+        private string _type;
+
+        public GiantPlanet()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool HasMoons()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool HasRings()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
