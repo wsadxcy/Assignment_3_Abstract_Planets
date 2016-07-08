@@ -8,6 +8,7 @@ namespace Assignment_3_Abstract_Planet
 {
     abstract class Planet
     {
+        // PRIVATE INSTANCE VARIABLES=====================================================
         private double _diameter;
         private double _mass;
         private int _moonCount;
@@ -16,21 +17,26 @@ namespace Assignment_3_Abstract_Planet
         private int _ringCount;
         private int _rotationPeriod;
 
+        // CONSTRUCTORS =====================================================================
         public Planet()
         {
             throw new System.NotImplementedException();
         }
 
+        // PUBLIC PROPERTIES==============================================================
+        /**
+         * This is the public property for private _diameter field
+         * 
+         * @property {double} Diameter
+         */
         public double Diameter
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._diameter;
             }
 
-            set
-            {
-            }
+            
         }
 
         public double Mass
@@ -40,9 +46,7 @@ namespace Assignment_3_Abstract_Planet
                 throw new System.NotImplementedException();
             }
 
-            set
-            {
-            }
+            
         }
 
         public int MoonCount
@@ -64,9 +68,7 @@ namespace Assignment_3_Abstract_Planet
                 throw new System.NotImplementedException();
             }
 
-            set
-            {
-            }
+            
         }
 
         public double OrbitalPeriod

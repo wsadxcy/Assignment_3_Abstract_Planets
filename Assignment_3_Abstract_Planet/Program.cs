@@ -7,8 +7,8 @@ using System.Threading.Tasks;
  * Date : Jul 7th, 2016
  * Date Modified: Jul 8th, 2016
  * Description : Assignment 3
- * Version : 0.2 - 
- *                  Created the structure for every class
+ * Version : 0.3 - 
+ *                  Created three interface file
  */
 namespace Assignment_3_Abstract_Planet
 {
