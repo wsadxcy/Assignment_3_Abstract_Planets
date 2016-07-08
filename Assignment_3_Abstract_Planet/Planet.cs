@@ -15,7 +15,7 @@ namespace Assignment_3_Abstract_Planet
         private string _name;
         private double _orbitalPeriod;
         private int _ringCount;
-        private int _rotationPeriod;
+        private double _rotationPeriod;
 
         // CONSTRUCTORS =====================================================================
         public Planet()
@@ -35,78 +35,106 @@ namespace Assignment_3_Abstract_Planet
             {
                 return this._diameter;
             }
-
-            
         }
 
+        /**
+         * This is the public property for private _mass field
+         * 
+         * @property {double} Mass
+         */
         public double Mass
         {
             get
             {
-                throw new System.NotImplementedException();
-            }
-
-            
+                return this._mass;
+            }   
         }
 
+        /**
+         * This is the public property for private _moonCount field
+         * 
+         * @property {int} MoonCount
+         */
         public int MoonCount
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._moonCount;
             }
 
             set
             {
+                this._moonCount = value;
             }
         }
 
-        public int Name
+        /**
+         * This is the public property for private _name field
+         * 
+         * @property {string} Name
+         */
+        public string Name
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._name;
             }
-
-            
         }
 
+        /**
+         * This is the public property for private _orbitalPeriod field
+         * 
+         * @property {double} OrbitalPeriod
+         */
         public double OrbitalPeriod
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._orbitalPeriod;
             }
 
             set
             {
+                this._orbitalPeriod = value;
             }
         }
 
+        /**
+         * This is the public property for private _ringCount field
+         * 
+         * @property {int} RingCount
+         */
         public int RingCount
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._ringCount;
             }
 
             set
             {
+                this._ringCount = value;
             }
         }
 
+        /**
+         * This is the public property for private _rotationPeriod field
+         * 
+         * @property {double} RotationPeriod
+         */
         public double RotationPeriod
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._rotationPeriod;
             }
 
             set
             {
+                this._rotationPeriod = value;
             }
         }
-
+        // PUBLIC METHODS===================================================================
         public void ToString()
         {
             throw new System.NotImplementedException();
