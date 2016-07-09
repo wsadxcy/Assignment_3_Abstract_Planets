@@ -12,8 +12,9 @@ namespace Assignment_3_Abstract_Planet
         private bool _oxygen;
 
 
-        public TerrestrialPlanet(string name, double diameter, double mass) : base(name, diameter, mass)
+        public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
         {
+            this._oxygen = oxygen;
         }
 
         public bool HasMoons()

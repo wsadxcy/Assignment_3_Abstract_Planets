@@ -11,18 +11,33 @@ namespace Assignment_3_Abstract_Planet
         private string _type;
 
 
-        public GiantPlanet(string name, double diameter, double mass) : base(name, diameter, mass)
+        public GiantPlanet(string name, double diameter, double mass, string type) : base(name, diameter, mass)
         {
+            this._type = type;
         }
 
         public bool HasMoons()
         {
-            throw new System.NotImplementedException();
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public bool HasRings()
         {
-            throw new System.NotImplementedException();
+            if (RingCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

@@ -15,7 +15,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Assignment_3_Abstract_Planet.GiantPlanet">
-    <Position X="5.5" Y="0.75" Width="4.5" />
+    <Position X="5.5" Y="0.75" Width="4.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
@@ -23,7 +23,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Assignment_3_Abstract_Planet.TerrestrialPlanet">
-    <Position X="5.5" Y="3.75" Width="4.5" />
+    <Position X="5.5" Y="3.75" Width="4.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
