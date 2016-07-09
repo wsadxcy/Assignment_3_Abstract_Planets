@@ -23,6 +23,7 @@ namespace Assignment_3_Abstract_Planet
             this._name = name;
             this._diameter = diameter;
             this._mass = mass;
+            Console.WriteLine(ToString());
         }
 
         // PUBLIC PROPERTIES==============================================================
