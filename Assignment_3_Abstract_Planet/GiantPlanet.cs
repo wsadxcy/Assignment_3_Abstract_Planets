@@ -10,9 +10,9 @@ namespace Assignment_3_Abstract_Planet
     {
         private string _type;
 
-        public GiantPlanet()
+
+        public GiantPlanet(string name, double diameter, double mass) : base(name, diameter, mass)
         {
-            throw new System.NotImplementedException();
         }
 
         public bool HasMoons()

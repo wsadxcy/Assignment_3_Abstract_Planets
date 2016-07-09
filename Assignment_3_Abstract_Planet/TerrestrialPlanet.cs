@@ -11,9 +11,9 @@ namespace Assignment_3_Abstract_Planet
     {
         private bool _oxygen;
 
-        public TerrestrialPlanet()
+
+        public TerrestrialPlanet(string name, double diameter, double mass) : base(name, diameter, mass)
         {
-            throw new System.NotImplementedException();
         }
 
         public bool HasMoons()

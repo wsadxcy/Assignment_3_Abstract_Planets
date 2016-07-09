@@ -18,9 +18,11 @@ namespace Assignment_3_Abstract_Planet
         private double _rotationPeriod;
 
         // CONSTRUCTORS =====================================================================
-        public Planet()
+        public Planet(string name, double diameter, double mass)
         {
-            throw new System.NotImplementedException();
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
         }
 
         // PUBLIC PROPERTIES==============================================================
@@ -135,9 +137,9 @@ namespace Assignment_3_Abstract_Planet
             }
         }
         // PUBLIC METHODS===================================================================
-        public void ToString()
+        public override string ToString()
         {
-            throw new System.NotImplementedException();
+            return Name.ToString() + ": " + Diameter.ToString() + Mass.ToString();
         }
     }
 }

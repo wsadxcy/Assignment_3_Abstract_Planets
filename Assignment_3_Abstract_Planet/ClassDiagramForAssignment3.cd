@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Assignment_3_Abstract_Planet.Planet">
-    <Position X="1" Y="1.5" Width="1.5" />
+    <Position X="1" Y="0.75" Width="3.75" />
     <TypeIdentifier>
       <HashCode>AAQBIAAgAAAAAEAEAAAACAQBACAAAAAAEAABAACAAQA=</HashCode>
       <FileName>Planet.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Assignment_3_Abstract_Planet.Program" Collapsed="true">
-    <Position X="1" Y="0.5" Width="1.5" />
+  <Class Name="Assignment_3_Abstract_Planet.Program">
+    <Position X="1" Y="5.5" Width="3.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Assignment_3_Abstract_Planet.GiantPlanet">
-    <Position X="7" Y="1.5" Width="1.5" />
+    <Position X="5.5" Y="0.75" Width="4.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
@@ -23,29 +23,29 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Assignment_3_Abstract_Planet.TerrestrialPlanet">
-    <Position X="7" Y="4.25" Width="1.5" />
+    <Position X="5.5" Y="3.75" Width="4.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="Assignment_3_Abstract_Planet.IHasMoons" Collapsed="true">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+  <Interface Name="Assignment_3_Abstract_Planet.IHasMoons">
+    <Position X="10.75" Y="4.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMoons.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Assignment_3_Abstract_Planet.IHasRings" Collapsed="true">
-    <Position X="11.25" Y="0.5" Width="1.5" />
+  <Interface Name="Assignment_3_Abstract_Planet.IHasRings">
+    <Position X="10.75" Y="1" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasRings.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Assignment_3_Abstract_Planet.IHabitable" Collapsed="true">
-    <Position X="11.25" Y="1.5" Width="1.5" />
+  <Interface Name="Assignment_3_Abstract_Planet.IHabitable">
+    <Position X="10.75" Y="2.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHabitable.cs</FileName>
