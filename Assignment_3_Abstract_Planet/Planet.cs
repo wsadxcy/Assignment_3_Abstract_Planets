@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Assignment_3_Abstract_Planet
 {
+    /**
+    * This class is a abstract class
+    * This class define a Planet
+    * 
+    * @class Planet
+    */
     abstract class Planet
     {
         // PRIVATE INSTANCE VARIABLES=====================================================
@@ -18,6 +24,18 @@ namespace Assignment_3_Abstract_Planet
         private double _rotationPeriod;
 
         // CONSTRUCTORS =====================================================================
+        /**
+         * <summary>
+         * This is the constructor for the Planet class.
+         * It take name, diameter and mass as local variables and 
+         * set the related instance variables (_name, _diameter and _mass) to their values
+         * </summary>
+         * 
+         * @constructor Planet
+         * @param {string} name
+         * @param {double} diameter
+         * @param {double} mass
+         */
         public Planet(string name, double diameter, double mass)
         {
             this._name = name;
@@ -138,9 +156,17 @@ namespace Assignment_3_Abstract_Planet
             }
         }
         // PUBLIC METHODS===================================================================
+        /**
+        * <summary>
+        * This method override the default ToString() Method outputs the Name, Diameter and Mass of a Planet to the console as string.
+        * </summary>
+        * 
+        * @method ToString
+        * @returns {string}
+        */
         public override string ToString()
         {
-            return Name.ToString() + ": " + Diameter.ToString() + Mass.ToString();
+            return "==========================================================\n" + "Planet: " + Name.ToString() + "     Diameter: " + Diameter.ToString() + "km" + "   Mass: " +Mass.ToString()+ " Earth";
         }
     }
 }
