@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Assignment_3_Abstract_Planet.Planet">
-    <Position X="1" Y="0.75" Width="3.75" />
+    <Position X="0.75" Y="0.75" Width="3.75" />
     <TypeIdentifier>
       <HashCode>AAQBIAAgAAAAAEAEAAAACAQBACAAAAAAEAABAACAAQA=</HashCode>
       <FileName>Planet.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Assignment_3_Abstract_Planet.Program">
-    <Position X="1" Y="5.5" Width="3.75" />
+    <Position X="0.75" Y="5.5" Width="3.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Assignment_3_Abstract_Planet.GiantPlanet">
-    <Position X="5.5" Y="0.75" Width="4.75" />
+    <Position X="5" Y="0.75" Width="5.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
@@ -23,7 +23,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Assignment_3_Abstract_Planet.TerrestrialPlanet">
-    <Position X="5.5" Y="3.75" Width="4.75" />
+    <Position X="5" Y="4.25" Width="5.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
