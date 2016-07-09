@@ -10,21 +10,35 @@ namespace Assignment_3_Abstract_Planet
     class TerrestrialPlanet : Planet ,IHabitable,IHasMoons
     {
         private bool _oxygen;
+        
 
-
-        public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
+        public TerrestrialPlanet(string name, double diameter, double mass, ref bool oxygen) : base(name, diameter, mass)
         {
             this._oxygen = oxygen;
         }
 
         public bool HasMoons()
         {
-            throw new System.NotImplementedException();
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public bool Habitable()
         {
-            throw new System.NotImplementedException();
+            if (_oxygen == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
